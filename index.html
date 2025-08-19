@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Mamadou Oury Ngadjiko</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header-pro">
+    <div class="info-profil">
+      <h1>Mamadou Oury Ngadjiko</h1>
+    </div>
+    <div class="photo-profil">
+      <img src="dv1.jpg" alt="Photo de Mamadou">
+    </div>
+  </header>
+  
+  <!-- Menu mobile -->
+  <input type="checkbox" id="menu" class="menu-icon">
+  <label for="menu" class="menu-icon">&#9776;</label>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#formation">Formations & expériences</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Présentation -->
+  <main>
+    <section>
+      <h2>Bienvenue sur mon Portfolio</h2>
+      <h2>À propos de moi</h2>
+      <p>Je m'appelle Mamadou Oury Ngadjiko, j'ai 21 ans et je suis actuellement en première année de Génie Informatique à Mercure International.</p>
+      <p>Passionné par les technologies numériques, la cybersécurité et le développement web, je suis curieux et motivé, toujours désireux d'apprendre.</p>
+      <p>J'ai réalisé plusieurs projets personnels et académiques, comme ce portfolio ou un logiciel de gestion d’hôtel en langage C. Ces projets m'ont permis de mettre en pratique mes connaissances.</p>
+      <p>Je m'autoforme régulièrement via des tutoriels et des documentations techniques. Mon objectif : devenir un professionnel compétent, capable de concevoir des solutions fiables, sécurisées et efficaces.</p>
+    </section>
+
+    <!-- Compétences -->
+    <section id="competences">
+      <h2>Mes Compétences</h2>
+      <h3>Langages maîtrisés</h3>
+      <ul>
+        <li><strong>HTML / CSS :</strong> Création de pages web structurées et mises en forme</li>
+        <li><strong>C :</strong> Programmation procédurale, gestion de mémoire, TP académiques</li>
+      </ul>
+      <h3>Langages en cours d'apprentissage</h3>
+      <ul>
+        <li><strong>JavaScript :</strong> Formation sur OpenClassrooms (bases de l'interactivité web)</li>
+        <li><strong>Python :</strong> Apprentissage des bases de la programmation et des scripts</li>
+      </ul>
+      <h3>Outils bureautiques maîtrisés</h3>
+      <ul>
+        <li><strong>Word, Excel, PowerPoint</strong></li>
+      </ul>
+      <h3>Compétences générales</h3>
+      <ul>
+        <li>Esprit logique et analytique</li>
+        <li>Motivé, curieux et autonome</li>
+        <li>Bonne compréhension des bases en programmation</li>
+      </ul>
+    </section>
+
+    <!-- Formation -->
+    <section id="formation">
+      <h2>Mon Parcours</h2>
+      <div class="bloc">
+        <h3>Licence 1 en Génie Informatique</h3>
+        <p><strong>Mercure International - 2025</strong></p>
+        <p>Développement de compétences en programmation, architecture des systèmes et développement web.</p>
+        <ul>
+          <li>Programmation en C : structures, fonctions, fichiers</li>
+          <li>Création de sites web en HTML / CSS</li>
+          <li>Architecture des ordinateurs et circuits logiques</li>
+          <li>Outils informatiques et logiciels bureautiques</li>
+        </ul>
+      </div>
+      <div class="bloc">
+        <h3>Terminale Mathématiques</h3>
+        <p><strong>Lycée Elhage Moussa - 2024</strong></p>
+        <p>Année orientée mathématiques, physique et chimie, renforçant la logique et la rigueur scientifique.</p>
+      </div>
+      <div class="bloc">
+        <h3>12ème Année - Sciences Mathématiques</h3>
+        <p><strong>Lycée Elhage Moussa - 2023</strong></p>
+        <p>Approfondissement en mathématiques, physique, chimie et raisonnement scientifique.</p>
+      </div>
+      <div class="bloc">
+        <h3>11ème Année - Série Scientifique</h3>
+        <p><strong>Lycée Elhage Moussa - 2022</strong></p>
+        <p>Début de la spécialisation scientifique : base solide en mathématiques, physique et SVT.</p>
+      </div>
+    </section>
+
+    <!-- Projets -->
+    <section id="projets">
+      <h2>Mes Projets</h2>
+      <ul>
+        <li>
+          <strong>Création de site web personnel</strong>
+          <p>Ce site présente :</p>
+          <ul>
+            <li>Mon parcours académique</li>
+            <li>Mes projets futurs et objectifs professionnels</li>
+            <li>Une galerie photo</li>
+            <li>Mes compétences informatiques et progression</li>
+            <li>Des fichiers à télécharger</li>
+            <li>Un formulaire de contact</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Système de gestion d'hôtel en langage C</strong>
+          <ul>
+            <li>Gestion des clients, réservations et chambres</li>
+            <li>Utilisation de fichiers pour le stockage</li>
+            <li>Objectif : améliorer mes compétences en algorithmique</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contactez-moi</h2>
+      <form action="#" method="post">
+        <input type="text" name="nom" placeholder="Nom" required><br>
+        <input type="text" name="prenom" placeholder="Prénom" required><br>
+        <input type="tel" name="telephone" placeholder="Téléphone" required><br>
+        <input type="email" name="mail" placeholder="Adresse mail" required><br>
+        <input type="text" name="adresse" placeholder="Adresse" required><br>
+        <textarea name="comment" rows="6" placeholder="Votre demande"></textarea><br>
+        <button type="submit">Soumettre</button>
+        <button type="reset">Réinitialiser</button>
+      </form>
+
+      <!-- Réseaux sociaux -->
+      <div class="reseaux">
+        <a href="instagram.jpeg"><img src="instagram.jpeg" alt="Instagram"></a>
+        <a href="whatsapp.png"><img src="whatsapp.png" alt="WhatsApp"></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Mamadou Oury Ngadjiko
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
